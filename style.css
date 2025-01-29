@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+
+h1{
+    color:black;
+    font-size:30px;
+    font-weight:800;
+    text-align:  center;
+}
+
+div p{
+    color:red;
+}
+
+div>h3{
+    color:aqua;
+}
+
+/* <-----------css element--selector--------- */
+
+#para1{
+    text-align: right;
+    color:yellowgreen;
+}
+
+.para2{
+    color:rgb(78, 44, 3);
+  text-align:center;
+}
+p.center{
+    text-align: center;
+    color:blueviolet
+}
+
+ div.para2 ul li:nth-child(3){
+    color:red;
+}
+
+
+.hello ul li:last-child{
+    color:aqua;
+}
